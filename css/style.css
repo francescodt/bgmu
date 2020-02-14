@@ -1,22 +1,20 @@
 * {
-    /* outline: 2px dotted green; */
     margin: 0;
     padding: 5px;
     font-size: 20px;
-    /* color: #942E74; */
 
 }
 
 body {
     width: 960 px;
     margin: 0 auto; 
-    /* background-color: hsla(300, 4%, 9%, 0.75); */
     background-color: hsla(300, 2%, 42%, 0.75);
 
 }
 
 header { 
     background-color: #942E74;
+    outline: 3px solid #FBF9DA;
 
 }
 
@@ -28,7 +26,6 @@ li {
 h1 {
     color: #FBF9DA;
     font-size: 40px;
-    /* margin: 22px; */
     margin-left: 22px;
     margin-right: 22px;
     margin-top: 22px;
@@ -50,10 +47,6 @@ nav li {
 
 }
 
-/* #topSpace {
-    margin-top: 30px;
-
-} */
 
 main li {
     display: inline;
@@ -68,22 +61,29 @@ main li:last-child {
 
 footer {
     clear: both;
-    height: 100px;
+    height: 45px;
     background-color: #942E74;
     color: FBF9DA;
     font-size: 20px;
     text-align: center;
+    outline: 3px solid #FBF9DA;
 
 }
 
 aside {
     float: right;
-    width: 30%;
+
 }
+
 
 h3 {
     font-size: 15px;
     
+}
+
+section a{
+    text-decoration: none;
+    color: #FBF9DA
 }
 
 #right section {
@@ -116,3 +116,21 @@ article h2 {
     color: #942E74;
     font-size: 30px;
 }
+
+script {
+    font: 30px;
+
+}
+
+h4 {
+    color: #942E74;
+
+}
+
+.navbar {
+    position: fixed;
+    right: 0;
+    width: 30%;
+
+}
+
